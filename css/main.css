@@ -28,7 +28,7 @@ a {
   text-decoration: none;
   color: #fff;
   border-radius: 4px;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   font-size: 1rem;
 }
 
@@ -81,13 +81,13 @@ p {
 
   .most {
     display: inline-block;
-    width: 47%;
+    width: 45%;
     vertical-align: middle;
   }
 
   .img {
     display: inline-block;
-    width: 47%;
+    width: 45%;
     vertical-align: middle;
   }
 
@@ -107,4 +107,14 @@ p {
   .most {
     max-width: 451px;
   }
+}
+
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
 }
