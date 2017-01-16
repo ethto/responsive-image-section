@@ -32,6 +32,11 @@ a {
   font-size: 1rem;
 }
 
+a:hover {
+  color: #e2e2e2;
+  background-color: #000;
+}
+
 .btn {
   margin-top: 2em;
 }
@@ -109,12 +114,16 @@ p {
   }
 }
 
-
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  .most, .img {
+    text-align: center;
+    text-align: left;
   }
 
 }
