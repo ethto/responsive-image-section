@@ -126,4 +126,8 @@ p {
     text-align: left;
   }
 
+  .wrapper {
+    margin: auto;
+  }
+
 }
